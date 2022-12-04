@@ -1,0 +1,18 @@
+[package]
+name = "webscratch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+reqwest = { version = "0.11", features = ["json"] }
+scraper = { version = "0.13" }
+select = { version = "0.5" }
+futures = { version = "0.3.21" }
+tokio = { version = "1.17", features = ["full"] }
+table-extract = "0.2"
+rand = "0.8.5"
+csv = "1.1.6"
+serde = { version = "1.0.136", features = ["derive"] }
